@@ -1,0 +1,53 @@
+
+/* Màu nền của toàn bộ trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    color: #1e3a8a;
+    text-align: center;
+}
+
+/* Định dạng đoạn văn */
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Khối nội dung có ảnh nền */
+.content {
+    background-color: #dbeafe;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 300px;
+    padding: 30px;
+    margin-top: 25px;
+
+    /* Căn giữa nội dung */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    border-radius: 12px;
+}
+
+/* Tạo nền tối nhẹ cho chữ dễ đọc */
+.content h2,
+.content p {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+}
